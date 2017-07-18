@@ -27,7 +27,14 @@ namespace COMP123_S2017_Lesson10A
             superVillain.AddPower("Webcasting LV2", 40);
             Console.WriteLine(superVillain.ToString());
 
-
+            if (superHero is SuperHero)
+            {
+                Console.WriteLine("super dude is definitely a superhero!");
+            }
+            else
+            {
+                Console.WriteLine("super dude is not a hero!");
+            }
         }
     }
 }
